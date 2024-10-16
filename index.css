@@ -109,13 +109,18 @@ header button:focus ul {
     display: block;
 }
 
-@media (max-width: 650px) {
-    #main-first-p {
-        font-size: 30px;
-        margin-bottom: 0;
-    }
-
+@media (max-width: 900px) {
     .boxes {
         flex-direction: column;
+    }
+}
+
+@media (max-width: 600px) {
+    #main-first-p {
+        font-size: 30px;
+    }
+    
+    #main-second-p {
+        width: 300px;
     }
 }
